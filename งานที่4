@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+fieldset {border: 1px solid #000}
+</style>
+<body>
+    <h1>แบบฝึกทักษะซ: สร้างแบบฟอร์ม HTML</h1>
+    <p>กรอกข้อมูลตังอย่างตามหัวข้อด้านล่างเพื่อดสอบความเข้าใจเกียวกับ Element และ attribute ต่าง ๆ ของ &lt;form&gt;</p>
+<fieldset>
+    <legend>ข้อมูลส่วนตัว</legend>
+    <form style="float: left;">
+    <label for="ชื่อ-สกุล">ชื่อ-สกุล</label>
+     <input type="text" name="firstname">
+     <label for="เพศ">เพศ</label>
+     <input type="radio" name="เพศ" value="ชาย">
+     <label for="เพศ">ชาย</label>
+     <input type="radio" id="เพศ" name="เพศ" value="หญิง">
+     <label for="เพศ">หญิง</label>
+     <input type="radio" id="เพศ" name="เพศ" value="อื่น ๆ">
+     <label for="เพศ">อื่น ๆ</label>
+     <label for="วันเกิด">วันเกิด:</label>
+     <input type="date" id="วันเกิด" name="วันเกิด">
+    </form>
+</fieldset>
+<fieldset>
+    <legend>ช่องทางติดต่อ</legend>
+    <label for="อีเมล">อีเมล</label>
+    <input type="text" name="อีเมล">
+    <label for="เบอร์โทรศัพท์">เบอร์โทรศัพท์</label>
+    <input type="text" id="เบอร์โทรศัพท์" name="เบอร์โทรศัพท์" maxlength="10" size="10" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <label for="เว็บไฃต์">เว็บไฃต์</label>
+    <input type="text" name="เว็บไฃต์" id="เว็บไฃต์" placeholder="https://">
+</fieldset>
+<fieldset>
+    <legend>ทักษะและความสนใจ</legend>
+    <label for="ทักษะ">เลือกทักษะที่ถนัด (เลือกได้หลายข้อ)</label>
+    <input type="radio" name="เลือกทักษะที่ถนัด" id="เลือกทักษะที่ถนัด">
+
+
+</fieldset>
+
+
+</body>
+</html>
